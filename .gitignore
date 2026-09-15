@@ -1,0 +1,20 @@
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+.vscode/
+.idea/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*.class
+.pytest_cache/
+
+# Environment & Secrets
+.env
+.env.local
+*.pem
+*.key
