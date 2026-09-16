@@ -107,7 +107,7 @@ Deliver all analysis in a structured Markdown format containing:
 
 This is the primary decision-support template executing Quantitative Graph of Thoughts (Q-GoT) arithmetic verification to compute 1-Year and 3-Year Total Cost of Ownership (TCO) across Salesforce, HubSpot, and Zoho.
 
-### 3.1 Production Prompt (Exact Text for ChatGPT Execution & Loom Demonstration)
+### 3.1 Production Prompt 
 
 ```markdown
 # CONTEXT:
