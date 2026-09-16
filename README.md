@@ -11,16 +11,33 @@
 
 ## 1. Executive Project Overview
 
-This repository represents the completed Capstone Assessment for the **Tayana Academy Prompt Engineering Hands-On Course**. The project constructs an autonomous, AI-driven business decision automation and procurement system evaluating Customer Relationship Management (CRM) platforms for an enterprise case study: **Apex Cloud Services**.
+This repository contains the official capstone deliverables for the **Tayana Academy Prompt Engineering Hands-On Course (Topic 7 Capstone)**. The project constructs an autonomous, AI-driven business decision automation and procurement system evaluating Customer Relationship Management (CRM) platforms for an enterprise case study: **Apex Cloud Services**.
 
 ### The Enterprise Case Study: Apex Cloud Services
 - **Organization Scale**: 150 active commercial sales representatives.
-- **Current Operational Baseline**: Client data, customer interactions, and pipeline velocity tracked in decentralized, offline spreadsheets resulting in severe data fragmentation, pipeline blindness, and +/- 30% revenue forecasting variance.
+- **Current Operational Baseline**: Client data, customer interactions, and pipeline velocity tracked across decentralized, offline spreadsheets resulting in high data fragmentation, pipeline blindness, and +/- 30% revenue forecasting variance.
 - **Strategic Objective**: Construct a virtual decision agent using advanced prompt engineering frameworks to evaluate three candidate platforms (**Salesforce Enterprise**, **HubSpot Sales Hub Enterprise**, and **Zoho CRM Enterprise**), execute mathematically verified Total Cost of Ownership (TCO) models, build a multi-criteria decision matrix, design a 6-month phased rollout roadmap, and deliver executive C-suite presentation assets.
 
 ---
 
-## 2. Advanced Prompt Engineering Frameworks Applied
+## 2. Official Repository Structure (TR-001)
+
+The repository strictly contains the seven required assessment deliverables in accordance with Technical Requirement **TR-001**:
+
+```
+prompt-engineering-capstone/
+|-- README.md                  # Primary project documentation, case study, and Loom video link
+|-- prompt_portfolio.md        # Prompt templates with parameter variables across all 7 frameworks
+|-- decision_matrix.md         # Multi-criteria decision matrix (weights sum to 1.00) with verified math
+|-- business_proposal.md       # McKinsey-grade B2B proposal for Apex Cloud Services CEO & Board
+|-- implementation_plan.md     # 6-month phased roadmap with ASCII Gantt chart & risk registry
+|-- executive_presentation.md  # Exactly 6 slides separated by standard markdown '---' horizontal rules
+`-- lessons_learned_report.md  # Post-mortem on hallucination prevention, context drift, & framework alignment
+```
+
+---
+
+## 3. Advanced Prompt Engineering Frameworks Applied
 
 This capstone integrates seven foundational and advanced prompt engineering architectures across strategic, tactical, and reasoning domains:
 
@@ -41,32 +58,11 @@ This capstone integrates seven foundational and advanced prompt engineering arch
 
 ---
 
-## 3. Official Repository Structure (TR-001)
-
-The repository strictly implements the mandatory file structure specified in Technical Requirement **TR-001**, complemented by supporting QA and demonstration guides:
-
-```
-prompt-engineering-capstone/
-??? README.md                      # [TR-001] Primary project documentation, architecture, & Loom link
-??? prompt_portfolio.md            # [TR-001, REQ-001/003] Complete prompt library with parameters & 7 frameworks
-??? decision_matrix.md             # [TR-001, TR-002] Multi-criteria matrix (weights sum to 1.00) & verified math
-??? business_proposal.md           # [TR-001, US-001] Executive B2B proposal for Apex Cloud Services CEO & Board
-??? implementation_plan.md         # [TR-001, REQ-004] 6-month phased roadmap, ASCII Gantt chart, & risk registry
-??? executive_presentation.md      # [TR-001, REQ-005, TR-003] Exactly 6 slides separated by markdown '---'
-??? lessons_learned_report.md      # [TR-001, REQ-006, CON-002] Post-mortem on hallucination, context drift, & frameworks
-?
-??? LOOM_DEMO_GUIDE.md             # [Supporting QA] 4-6 min step-by-step video script & prompt runbook
-??? SUBMISSION_CHECKLIST.md        # [Supporting QA] Comprehensive 16-point compliance checklist & LMS text
-??? verify_capstone.py             # [Supporting QA] Automated verification test suite validating all requirements
-```
-
----
-
 ## 4. Key Quantitative Findings & Verified Calculations
 
 ### 4.1 Total Cost of Ownership (TCO) Comparison (150 Sales Reps)
 All figures calculated and verified via **Quantitative Graph of Thoughts (Q-GoT)** using the official pricing parameters:  
-Formula: TCO = (User Count * Monthly Cost * Months) + Setup Fee
+$$\text{TCO} = (\text{User Count} \times \text{Monthly Cost} \times \text{Months}) + \text{Setup Fee}$$
 
 ```
 +--------------------------+----------------------------+-------------+-------------+-----------------------+
@@ -80,7 +76,7 @@ Formula: TCO = (User Count * Monthly Cost * Months) + Setup Fee
 
 ### 4.2 Multi-Criteria Decision Matrix Summary (TR-002)
 - **Weights**: TCO Cost Model (30%), Customization & Scale (20%), Setup Speed (25%), User Adoption Ease (25%).  
-  *Sum Verification*: 0.30 + 0.20 + 0.25 + 0.25 = 1.00 (100% exact).
+  *Sum Verification*: $0.30 + 0.20 + 0.25 + 0.25 = 1.00$ (100% exact).
 - **Objective Mathematical Outcome**:
   - **1st Place (Winner)**: **HubSpot Sales Hub Enterprise** -- Score: **8.625 / 10.00**
   - **2nd Place**: Zoho CRM Enterprise -- Score: **7.700 / 10.00**
@@ -89,44 +85,48 @@ Formula: TCO = (User Count * Monthly Cost * Months) + Setup Fee
 
 ---
 
-## 5. Automated Verification & Quality Assurance
+## 5. Loom Video Walkthrough Flow (4 to 6 Minutes)
 
-This repository includes an automated verification script (`verify_capstone.py`) that empirically audits the entire deliverable suite against the official requirements:
+The assessment mandates a **4-to-6 minute Loom video walkthrough** demonstrating the capstone system:
 
-### Running the Test Suite:
-```bash
-python verify_capstone.py
+```
++----------------------------------------------------------------------------------------------------+
+|                                    LOOM TIMELINE PACING OVERVIEW                                   |
++-------------------+---------------------------------------------------------+----------------------+
+| Timestamp         | Core Demonstration Focus                                | Linked Assessment Req|
++-------------------+---------------------------------------------------------+----------------------+
+| 0:00 - 1:00 (60s) | Self-Introduction & Apex Cloud Services Case Study      | REQ-002, ASM-001     |
+| 1:00 - 2:00 (60s) | Walkthrough of prompt_portfolio.md Library              | REQ-001, REQ-003     |
+| 2:00 - 4:00 (120s)| LIVE Paste-and-Run of CO-STAR Q-GoT Prompt in ChatGPT   | REQ-008, CON-001     |
+| 4:00 - 5:15 (75s) | Executive Presentation Deck (---) & Lessons Learned     | REQ-005, REQ-006     |
+| 5:15 - 6:00 (45s) | Phased Gantt Roadmap, Decision Matrix & GitHub Wrap-up  | REQ-004, REQ-007     |
++-------------------+---------------------------------------------------------+----------------------+
 ```
 
-### Verification Coverage:
-- [x] **TR-001**: Presence and non-emptiness of all 7 mandatory markdown files.
-- [x] **TR-002**: Decision matrix weights sum to exactly 1.00 (100%) and arithmetic consistency.
-- [x] **TR-003**: Executive presentation contains exactly 6 slides separated by standard `---` dividers.
-- [x] **REQ-001**: CO-STAR prompt templates with explicit parameter variables.
-- [x] **REQ-002**: Comprehensive vendor comparisons across cost, scale, and timelines.
-- [x] **REQ-003**: Meta-prompting flow and generated CRM researcher system prompt.
-- [x] **REQ-004**: 6-month phased roadmap, ASCII Gantt chart in code block, and 3-risk registry table.
-- [x] **REQ-006 & CON-002**: Lessons learned coverage of hallucination prevention, context window wind-down, and framework alignment.
-- [x] **Security**: Scan for exposed API keys, tokens, or credentials (0 secrets detected).
+### The Exact Prompt to Paste Live in ChatGPT during Step 3:
+```markdown
+# CONTEXT:
+Apex Cloud Services is migrating 150 sales reps to a CRM. We are evaluating Salesforce ($150/user/month + $25,000 setup fee), HubSpot ($90/user/month + $10,000 setup fee), and Zoho ($40/user/month + $5,000 setup fee).
+
+# OBJECTIVE:
+Run a Quantitative Graph of Thoughts (Q-GoT) evaluation to calculate the 1-year and 3-year Total Cost of Ownership (TCO) for each vendor.
+
+# SYSTEM CONTROLS & LOGIC STEPS:
+1. Calculate 1-Year TCO for Salesforce, HubSpot, and Zoho (User Count * Cost/mo * 12 + Setup Fee).
+2. Calculate 3-Year TCO for each (User Count * Cost/mo * 36 + Setup Fee).
+3. Self-Check Math Check: Print the arithmetic step-by-step to confirm calculation values.
+
+# STYLE: McKinsey Strategy Consultant.
+# TONE: Objective, analytical, finance-first.
+# AUDIENCE: CEO and Board of Directors.
+# RESPONSE: Write a structured markdown analysis detailing calculations and recommend the most cost-effective option.
+```
 
 ---
 
-## 6. Loom Video Demonstration Guide
+## 6. Notes for LMS Assessment Submission
 
-The assessment mandates a **4-to-6 minute Loom video walkthrough**. Comprehensive step-by-step instructions, prompt text to copy-paste live into ChatGPT, and timing breakdowns are provided in [`LOOM_DEMO_GUIDE.md`](./LOOM_DEMO_GUIDE.md).
-
-### High-Level Pacing Overview:
-- **0:00 - 1:00**: Self-introduction (Tanishq Soni) and Apex Cloud Services case study summary.
-- **1:00 - 2:00**: Walkthrough of `prompt_portfolio.md` library (explaining CO-STAR, Q-GoT, and Meta-Prompting).
-- **2:00 - 4:00**: Live ChatGPT execution of the CO-STAR Q-GoT prompt showing step-by-step 1-year and 3-year TCO calculations on screen.
-- **4:00 - 5:30**: Demonstration of `executive_presentation.md` slide formatting (`---` dividers) and `lessons_learned_report.md` insights.
-- **5:30 - 6:00**: Review of public GitHub repository structure and closing remarks.
-
----
-
-## 7. Notes for LMS Assessment Submission
-
-*The following notes can be pasted directly into the LMS Description field upon submission:*
+*Copy and paste the following text into the Description field in the LMS portal upon submission:*
 
 > **Assessment Submission Notes**:
 > - **Candidate Name**: Tanishq Soni
