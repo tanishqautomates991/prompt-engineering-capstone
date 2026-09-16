@@ -4,7 +4,7 @@
 **Author / Learner**: Tanishq Soni  
 **GitHub Account**: [tanishqautomates991](https://github.com/tanishqautomates991)  
 **Repository Name**: `prompt-engineering-capstone`  
-**Video Demonstration**: [Loom Walkthrough Video](PASTE_YOUR_PUBLIC_LOOM_SHARE_URL_HERE) *(Replace with your 4-6 min public Loom video URL)*  
+**Video Demonstration**: [Loom Walkthrough Video]
 **Assessment Status**: Complete, Verified & Assessor-Ready  
 
 ---
