@@ -4,7 +4,7 @@
 **Author / Learner**: Tanishq Soni  
 **GitHub Account**: [tanishqautomates991](https://github.com/tanishqautomates991)  
 **Repository Name**: `prompt-engineering-capstone`  
-**Video Demonstration**: 
+**Video Demonstration**: (https://www.loom.com/share/bb091e2d0746452792379f95d8fdfcbe)
 
 **Assessment Status**: Complete  
 
@@ -85,54 +85,3 @@ $$\text{TCO} = (\text{User Count} \times \text{Monthly Cost} \times \text{Months
 - **Governance Alignment**: The Board of Directors formally approved the implementation of **HubSpot Sales Hub Enterprise**, fully aligning with the objective mathematical outcome.
 
 ---
-
-## 5. Loom Video Walkthrough Flow (4 to 6 Minutes)
-
-The assessment mandates a **4-to-6 minute Loom video walkthrough** demonstrating the capstone system:
-
-```
-+----------------------------------------------------------------------------------------------------+
-|                                    LOOM TIMELINE PACING OVERVIEW                                   |
-+-------------------+---------------------------------------------------------+----------------------+
-| Timestamp         | Core Demonstration Focus                                | Linked Assessment Req|
-+-------------------+---------------------------------------------------------+----------------------+
-| 0:00 - 1:00 (60s) | Self-Introduction & Apex Cloud Services Case Study      | REQ-002, ASM-001     |
-| 1:00 - 2:00 (60s) | Walkthrough of prompt_portfolio.md Library              | REQ-001, REQ-003     |
-| 2:00 - 4:00 (120s)| LIVE Paste-and-Run of CO-STAR Q-GoT Prompt in ChatGPT   | REQ-008, CON-001     |
-| 4:00 - 5:15 (75s) | Executive Presentation Deck (---) & Lessons Learned     | REQ-005, REQ-006     |
-| 5:15 - 6:00 (45s) | Phased Gantt Roadmap, Decision Matrix & GitHub Wrap-up  | REQ-004, REQ-007     |
-+-------------------+---------------------------------------------------------+----------------------+
-```
-
-### The Exact Prompt to Paste Live in ChatGPT during Step 3:
-```markdown
-# CONTEXT:
-Apex Cloud Services is migrating 150 sales reps to a CRM. We are evaluating Salesforce ($150/user/month + $25,000 setup fee), HubSpot ($90/user/month + $10,000 setup fee), and Zoho ($40/user/month + $5,000 setup fee).
-
-# OBJECTIVE:
-Run a Quantitative Graph of Thoughts (Q-GoT) evaluation to calculate the 1-year and 3-year Total Cost of Ownership (TCO) for each vendor.
-
-# SYSTEM CONTROLS & LOGIC STEPS:
-1. Calculate 1-Year TCO for Salesforce, HubSpot, and Zoho (User Count * Cost/mo * 12 + Setup Fee).
-2. Calculate 3-Year TCO for each (User Count * Cost/mo * 36 + Setup Fee).
-3. Self-Check Math Check: Print the arithmetic step-by-step to confirm calculation values.
-
-# STYLE: McKinsey Strategy Consultant.
-# TONE: Objective, analytical, finance-first.
-# AUDIENCE: CEO and Board of Directors.
-# RESPONSE: Write a structured markdown analysis detailing calculations and recommend the most cost-effective option.
-```
-
----
-
-## 6. Notes for LMS Assessment Submission
-
-*Copy and paste the following text into the Description field in the LMS portal upon submission:*
-
-> **Assessment Submission Notes**:
-> - **Candidate Name**: Tanishq Soni
-> - **Repository**: `prompt-engineering-capstone`
-> - **Loom URL**: Set to "Anyone with the link can view".
-> - **Q-GoT Arithmetic Auditing**: Standard LLMs exhibited arithmetic hallucination when computing 3-year TCO in unconstrained zero-shot modes. This was solved by enforcing Quantitative Graph of Thoughts (Q-GoT), requiring the model to display intermediate monthly burn, annual recurring subscriptions, and a secondary self-check equation (3 * 1-Year Sub = 3-Year Sub).
-> - **Multi-Criteria Weighting**: Verified that decision matrix weights sum to exactly 1.00 (0.30 + 0.20 + 0.25 + 0.25). HubSpot ranked #1 (8.625) due to superior usability (25%) and rapid setup (25%), aligning with the board's implementation mandate.
-> - **Context Drift Mitigation**: Solved attention degradation across multi-phase prompts by adopting clean session threads and modular prompt chaining.
